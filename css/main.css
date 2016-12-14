@@ -1,1 +1,69 @@
+/* stylesheet for LHussey.com */
 
+/*  -------- Color Pallette ------------
+
+#F8FFF4: cream | used for main headings and most paragraphs
+#3A3042: dark purple | used for area backgrounds, main header background, and paragraphs
+#846193: light purple | used for area backgrounds, buttons, and paragraphs
+#E75A7C: deep pink | used for rollovers and accents
+#17BEBB: turquoise | used for area backgrounds and accents
+
+*/
+
+/* -------- Fonts ---------------------
+
+Bebas Neue:  display font | used for headings and nav
+Questrial:   sans-serif font | used for paragraphs
+Black Jack:  script font | used for brand name
+
+*/
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(/font/BebasNeue.woff);
+}
+
+@font-face {
+    font-family: Questrial;
+    src: url(/font/Questrial_Regular.woff);
+}
+@font-face {
+    font-family: Black Jack;
+    src: url(/font/blackjack.woff);
+}
+
+/*---------- Table of Contents----------
+
+- Base Styles
+- Grid
+
+*/
+
+
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+#about, #work, #skills, #contact {
+    height: 600px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto; /* vert - horiz */
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
