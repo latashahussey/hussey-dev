@@ -36,6 +36,11 @@ Black Jack:  script font | used for brand name
 
 - Base Styles
 - Grid
+- Sections
+    - About
+    - Work
+    - Additional skills
+    - Contact
 
 */
 
@@ -43,6 +48,7 @@ Black Jack:  script font | used for brand name
 /***** BASE STYLES *****/
 
 body {
+    background-color: #F8FFF4;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -66,4 +72,77 @@ body {
 .third-width {
     width: 400px;
     float: left;
+}
+
+/***** SECTIONS *****/
+
+
+/* About */
+#about {
+    background-color: #846193;
+    color: #F8FFF4;
+}
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Bebas Neue',sans-serif;;
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 21px;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/* Work */
+#work {
+    background-color: #3A3042;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+.work-icon {
+    color: #F8FFF4;
+    font-size: 100px;
+}
+
+#work h3 {
+    color: #F8FFF4;
+    font-size: 24px;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+    width: 205px;
+}
+
+#work p {
+    color: #F8FFF4;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 35px;
+}
+
+/* Additional Skills */
+#skills .full-width{
+    margin: 15px auto;
+    text-align: center;
+}
+
+#skills h2 {
+    font-family: 'Bebas Neue',sans-serif;;
+    font-size: 36px;
+    text-align: left;
+}
+
+#skills .half-width {
+    margin: 40px auto;
+
 }
