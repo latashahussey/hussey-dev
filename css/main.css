@@ -19,17 +19,17 @@ Black Jack:  script font | used for brand name
 */
 
 @font-face {
-    font-family: Bebas Neue;
-    src: url(/font/BebasNeue.woff);
+    font-family: 'Bebas Neue';
+    src: url('../font/BebasNeue.woff') format('woff');
 }
 
 @font-face {
-    font-family: Questrial;
-    src: url(/font/Questrial_Regular.woff);
+    font-family: 'Questrial';
+    src: url('../font/Questrial_Regular.woff') format('woff');
 }
 @font-face {
-    font-family: Black Jack;
-    src: url(/font/blackjack.woff);
+    font-family: 'Black Jack';
+    src: url('../font/blackjack.woff') format('woff');
 }
 
 /*---------- Table of Contents----------
@@ -37,6 +37,7 @@ Black Jack:  script font | used for brand name
 - Base Styles
 - Grid
 - Sections
+    - Header
     - About
     - Work
     - Additional skills
@@ -52,7 +53,7 @@ body {
     font-family: 'Questrial', sans-serif;
 }
 
-#about, #work, #skills, #contact {
+#about, #work, #contact {
     height: 600px;
 }
 
@@ -77,6 +78,55 @@ body {
 /***** SECTIONS *****/
 
 
+/* Header */
+
+header {
+    background: url('../img/glasses-coffee-desk.jpeg');
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    color: #F8FFF4;
+    font-family: 'Black Jack', script;
+    font-size: 50px;
+    padding: 50px 0;
+
+}
+
+header #nav-bar {
+  bacgkround: #3a3042;
+}
+
+nav {
+
+    float: right;
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    color: #F8FFF4;
+    padding-left: 30px;
+}
+
+header h2 {
+    width: 700px;
+    clear: both;
+    font-family: 'Questrial', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    color: #F8FFF4;
+    padding: 60px 0;
+}
+header h2 span {
+    color: #17bebb;
+}
+
 /* About */
 #about {
     background-color: #846193;
@@ -100,7 +150,7 @@ body {
 
 /* Work */
 #work {
-    background-color: #3A3042;
+    background-color: #E75A7C;
     text-align: center;
 }
 
@@ -111,15 +161,15 @@ body {
 .work-icon {
     color: #F8FFF4;
     font-size: 100px;
+    padding-bottom: 30px;
 }
 
 #work h3 {
     color: #F8FFF4;
-    font-size: 24px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
     margin: 0 auto;
-    padding-top: 40px;
     text-align: center;
-    width: 205px;
 }
 
 #work p {
@@ -131,7 +181,7 @@ body {
 }
 
 /* Additional Skills */
-#skills .full-width{
+/*#skills .full-width{
     margin: 15px auto;
     text-align: center;
 }
@@ -144,5 +194,60 @@ body {
 
 #skills .half-width {
     margin: 40px auto;
+}*/
 
+/* Contact */
+
+#contact {
+    background-color: #3A3042;
+    color: #F8FFF4;
+}
+
+#contact .full-width {
+    padding: 115px 0;
+}
+
+#contact-img {
+    border: 12px solid #F8FFF4;
+    width: 500px;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Bebas Neue', sans-serif;;
+    font-size: 65px;
+}
+
+#email {
+  font-size: 22px;
+
+}
+#email-header{
+    font-size: 22px;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-size: 22px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #F8FFF4;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul .fa {
+    padding-right: 48px;
 }
