@@ -89,19 +89,12 @@ header {
 header h1 {
     color: #F8FFF4;
     font-family: 'Black Jack', script;
-    font-size: 50px;
-    padding: 50px 0;
-
-}
-
-header #nav-bar {
-  bacgkround: #3a3042;
+    font-size: 60px;
 }
 
 nav {
-
     float: right;
-    padding: 75px 40px;
+    padding: 55px 40px;
 }
 nav ul li{
     display: inline-block;
@@ -112,6 +105,12 @@ nav ul li a {
     font-size: 24px;
     color: #F8FFF4;
     padding-left: 30px;
+}
+#nav-bar {
+  background-color: #3A3042;
+  height: 150px;
+  padding-left: 115px;
+  width: 100%;
 }
 
 header h2 {
