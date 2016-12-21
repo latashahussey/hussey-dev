@@ -17,20 +17,39 @@ Questrial:   sans-serif font | used for paragraphs
 Black Jack:  script font | used for brand name
 
 */
-
 @font-face {
-    font-family: 'Bebas Neue';
-    src: url('../font/BebasNeue.woff') format('woff');
+	font-family: 'Questrial';
+	src: url('../font/Questrial-Regular.eot');
+	src: url('../font/Questrial-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../font/Questrial-Regular.woff2') format('woff2'),
+		url('../font/Questrial-Regular.woff') format('woff'),
+		url('../font/Questrial-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Questrial';
-    src: url('../font/Questrial_Regular.woff') format('woff');
+	font-family: 'Black Jack';
+	src: url('../font/BlackJack.eot');
+	src: url('../font/BlackJack.eot?#iefix') format('embedded-opentype'),
+		url('../font/BlackJack.woff2') format('woff2'),
+		url('../font/BlackJack.woff') format('woff'),
+		url('../font/BlackJack.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
+
 @font-face {
-    font-family: 'Black Jack';
-    src: url('../font/blackjack.woff') format('woff');
+	font-family: 'Bebas Neue';
+	src: url('../font/BebasNeue.eot');
+	src: url('../font/BebasNeue.eot?#iefix') format('embedded-opentype'),
+		url('../font/BebasNeue.woff2') format('woff2'),
+		url('../font/BebasNeue.woff') format('woff'),
+		url('../font/BebasNeue.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
+
 
 /*---------- Table of Contents----------
 
@@ -221,7 +240,7 @@ header h2 span {
 
 #contact h2 {
     font-family: 'Bebas Neue', sans-serif;;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 #email {
